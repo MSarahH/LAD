@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="334dp"
+        android:layout_height="373dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_3"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="428dp"
+        android:layout_height="66dp"
+        android:background="#0D4C92"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="332dp"
+        android:layout_height="35dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#C8C6C6"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="332dp"
+        android:layout_height="35dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#C8C6C6"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#415E96"
+        android:text="Confirmar"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <TextView
+        android:id="@+id/Senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueci senha...."
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não possui conta? Cadastrar"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

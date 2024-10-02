@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".horarios2">
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/checklist"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="732dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#E6FFFFFF"
+        android:backgroundTintMode="screen"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="725dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/cooking"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="732dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/daily_routine__2_"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="715dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/broom"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="729dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="414dp"
+        android:layout_height="48dp"
+        android:background="#0D4C92"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_6"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="55dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_5"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="99dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#415E96"
+        android:text="Editar"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="99dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#415E96"
+        android:text="Editar"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seu Horarios"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lembretes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#415E96"
+        android:text="Excluir"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#415E96"
+        android:text="Excluir"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="283dp"
+        android:layout_height="298dp"
+        android:maxDate="31/12/9020"
+        android:minDate="31/12/1780"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:singleLine="true"
+        app:singleSelection="false"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="438dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <ListView
+        android:layout_width="331dp"
+        android:layout_height="104dp"
+        android:listSelector="@android:drawable/list_selector_background"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="496dp"
+        tools:listitem="@android:layout/simple_list_item_1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="73dp" />
+
+    <ScrollView
+        android:layout_width="16dp"
+        android:layout_height="136dp"
+        tools:layout_editor_absoluteX="394dp"
+        tools:layout_editor_absoluteY="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

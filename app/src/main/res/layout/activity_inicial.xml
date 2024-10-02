@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicial">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="428dp"
+        android:layout_height="66dp"
+        android:background="#0D4C92"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_5"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_6"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <EditText
+        android:id="@+id/Busca"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#C7C5C5"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Bem-vindo Jhonatan!"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/image_2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="29dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/settings_fill0_wght400_grad0_opsz24_1"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/question_mark_fill0_wght400_grad0_opsz24_1"
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <SearchView
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#C8EEFF"
+        android:backgroundTintMode="screen"
+        app:srcCompat="@drawable/home__1_"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        android:backgroundTintMode="screen"
+        app:srcCompat="@drawable/cooking"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        app:srcCompat="@drawable/daily_routine"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        app:srcCompat="@drawable/broom"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        app:srcCompat="@drawable/checklist"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <RelativeLayout
+        android:layout_width="241dp"
+        android:layout_height="182dp"
+        android:background="#7A8DFCFE"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="186dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="102dp"
+            android:layout_height="168dp"
+            app:srcCompat="@drawable/rectangle_6" />
+
+        <TextView
+            android:id="@+id/Resumoanuncio"
+            android:layout_width="130dp"
+            android:layout_height="181dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="-8dp"
+            android:text="Marca líder em diversas categorias no segmento de higiene e limpeza no Brasil, a Ypê possui uma linha completa de produtos para auxiliar nos cuidados com a roupa, a casa e o corpo."
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="242dp"
+        android:layout_height="183dp"
+        android:background="#85FF6165"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="186dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/image_4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="385dp"
+        android:layout_height="157dp"
+        android:background="#34415E96"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="426dp">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colocar a encomenda da Julia nos correios na quarta " />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="59dp"
+            android:text="Comprar o presente do Michael" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="Barbeiro agendado para sexta" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/InicialLembrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lembrete:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

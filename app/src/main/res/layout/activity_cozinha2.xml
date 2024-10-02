@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cozinha2">
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/daily_routine__1_"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#E6FFFFFF"
+        android:backgroundTintMode="screen"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/cooking__2_"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/broom"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/checklist"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="414dp"
+        android:layout_height="48dp"
+        android:background="#0D4C92"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="71dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_6"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="55dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_5"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/___1_"
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/resource__"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="212dp"
+        android:layout_height="133dp"
+        android:text="Bolo de cenoura no liquidificador Ingredientes(massa): 3 cenouras médias 3 ovos 2 xícaras de açúcar 1 xícara de óleo de canola 2 xícaras de farinha de trigo 1 pitada de sal 1 colher de sopa de fermento químico Modo de Preparo(Massa):  1No liquidificador, coloque 3 cenouras médias, 3 ovos, 1 xícara de óleo de canola e 2 xícaras de açúcar. Bata até ficar.... "
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dicas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="86dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/image_13__1_"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/image_12__1_"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="244dp"
+        android:layout_height="88dp"
+        android:text="Para conservar a salsinha, o coentro e a cebolinha sempre verdes e frescas, a dica é lavar e escorrer bem os temperos logo que chegar das compras. Em seguida, coloque-os em um vidro com tampa e guarde na geladeira. Dura até três semanas sob refrigeração."
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="244dp"
+        android:layout_height="88dp"
+        android:text="Na hora das compras, a dica é que quanto mais lisas as cascas do limão e da laranja, mais suco eles terão. Por isso, evite comprar limões e laranjas com a casca muito rugosa."
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/image_11__1_"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="244dp"
+        android:layout_height="88dp"
+        android:text="Para retirar a pele do tomate com facilidade, é só fazer cortes em x na base do tomate e colocar em água fervente por alguns segundos. A pele irá se soltar rapidamente e você poderá usá-los para molhos e outros preparos."
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E1DCDC"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:inputType="text"
+        android:text="              Pesquisa"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <SearchView
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="117dp"
+        android:layout_height="248dp"
+        app:srcCompat="@drawable/image_8"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ScrollView
+        android:layout_width="6dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="158dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="665dp" />
+
+    <ScrollView
+        android:layout_width="15dp"
+        android:layout_height="155dp"
+        tools:layout_editor_absoluteX="395dp"
+        tools:layout_editor_absoluteY="47dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

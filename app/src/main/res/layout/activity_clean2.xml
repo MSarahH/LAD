@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:backgroundTintMode="screen"
+    tools:context=".Clean2">
+
+    <ScrollView
+        android:layout_width="13dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="397dp"
+        tools:layout_editor_absoluteY="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E1DCDC"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:inputType="text"
+        android:text="              Pesquisa"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <SearchView
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="332dp"
+        android:layout_height="31dp"
+        android:text="Como dobrar roupas de manga comprida"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="274dp"
+        android:layout_height="54dp"
+        android:text="Primeiro você precisa decidir o tipo de vestimenta que será dobrado, cada tipo possui uma forma de ser dobrada, vamos falar primeiro de camisetas(acesse a explicação completa, link)...."
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Videos:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passo-a-passo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="421dp"
+        android:layout_height="47dp"
+        android:background="#0D4C92"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="71dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_6"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="55dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/terminando_anima__o_20240305084214_5"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="293dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/aprenda_5_maneiras_pr_ticas_de_como_dobrar_cal_a_jeans_1"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="91dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/youtube_xd__d_1"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="114dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/_f06ba92_d823_487a_b491_abb524906ea9_1"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="126dp"
+        android:layout_height="102dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView39"
+        app:srcCompat="@drawable/_fea4919_86d7_430b_97a7_8f8b040f66e4_1"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#415E96"
+        app:icon="@drawable/resource__"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#415E96"
+        app:icon="@drawable/resource__"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#415E96"
+        android:rotation="-360"
+        app:icon="@drawable/___1_"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#415E96"
+        android:rotation="360"
+        app:icon="@drawable/___1_"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="89dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/broom"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/cooking__1_"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/daily_routine__1_"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/checklist__1_"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#E6FFFFFF"
+        android:backgroundTintMode="screen"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
